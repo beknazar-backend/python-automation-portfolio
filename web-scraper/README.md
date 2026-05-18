@@ -57,3 +57,7 @@ python scraper.py
 - Проверяйте CSS-селекторы на целевой странице
 - Если страница загружает данные через JavaScript, классический HTML-парсер может не подойти
 - Меняйте `output_file`, чтобы одним запуском не перезаписывать предыдущий результат
+
+## Screenshots
+
+Parser output examples and exported files can be added to the `screenshots` folder.
