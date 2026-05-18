@@ -75,16 +75,16 @@ Screenshots and bot examples are available in the `screenshots` folder.
 ## Screenshots
 
 ### Start Menu
-![Start Menu](screenshots/start-menu.png)
+![Start Menu](./screenshots/start-menu.png)
 
 ### User Registration
-![User Registration](screenshots/user-registration.png)
+![User Registration](./screenshots/user-registration.png)
 
 ### Phone Input
-![Phone Input](screenshots/phone-input.png)
+![Phone Input](./screenshots/phone-input.png)
 
 ### Service Selection
-![Service Selection](screenshots/service-selection.png)
+![Service Selection](./screenshots/service-selection.png)
 
 ### Application Created
-![Application Created](screenshots/application-created.png)
+![Application Created](./screenshots/application-created.png)
