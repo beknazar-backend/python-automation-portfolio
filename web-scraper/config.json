@@ -1,0 +1,15 @@
+{
+  "start_url": "https://www.olx.kz/transport/legkovye-avtomobili/",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  "product_selector": "div[data-cy=\"l-card\"]",
+  "fields": {
+    "name": "div[data-testid=\"ad-card-title\"] a@text",
+    "price": "p[data-testid=\"ad-price\"]@text",
+    "link": "div[data-testid=\"ad-card-title\"] a@href",
+    "availability": ""
+  },
+  "next_page_selector": "a[data-testid=\"pagination-forward\"]",
+  "output_file": "competitor_prices.xlsx"
+}

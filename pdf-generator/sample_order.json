@@ -1,0 +1,11 @@
+{
+  "customer_name": "ООО Veloroom",
+  "document_number": "INV-2026-001",
+  "date": "2026-05-15",
+  "currency": "₸",
+  "items": [
+    { "name": "Колесо", "quantity": 2, "unit_price": 3000.00 },
+    { "name": "Втулка", "quantity": 2, "unit_price": 500.50 },
+    { "name": "Руль", "quantity": 1, "unit_price": 449.90 }
+  ]
+}

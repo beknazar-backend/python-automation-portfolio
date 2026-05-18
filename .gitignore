@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+*/.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment and local config
+.env
+.env.*
+.env.local
+.env.production
+.env.test
+*.local
+!**/.env.example
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.pyproj
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Generated files
+*.log
+*.db
+*.sqlite
+*.sqlite3
+output/
+*.xlsx
+*.xls
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
