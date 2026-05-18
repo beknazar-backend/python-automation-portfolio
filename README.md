@@ -1,54 +1,98 @@
-# Portfolio Projects
+# 🚀 Python Automation Portfolio
 
-Набор небольших Python-проектов для портфолио и GitHub-публикации.
-Каждый проект находится в своей папке и содержит собственный `README.md` с описанием, установкой и примерами запуска.
+Collection of Python automation and backend projects.
 
-## Содержимое
+This repository contains several mini-projects focused on:
+- Telegram bots
+- Website parsing
+- Excel/CSV automation
+- PDF generation
+- Backend utilities
 
-1. `telegram-booking-bot`
-   - Telegram-бот для записи клиентов и мини-CRM
-   - SQLite, логирование, проверка данных и администрация через Telegram
-2. `price-list-cleaner`
-   - Утилита для очистки и нормализации прайс-листов
-   - Работа с CSV/Excel, удаление дубликатов, пересчет цен и переименование товаров
-3. `image-processing`
-   - Обработка товарных изображений для e-commerce
-   - Изменение размера, обрезка, переименование и сохранение в JPEG/PNG
-4. `pdf-generator`
-   - Генерация PDF-документов (чеки, счета) на основе JSON-заказа
-5. `web-scraper`
-   - Парсер каталога конкурентов с сохранением результата в Excel
+---
 
-## Как использовать
+# 📂 Projects
 
-Откройте папку проекта и следуйте инструкции в нужном `README.md`.
+## 🤖 telegram-booking-bot
+Telegram bot for handling bookings, applications and user interaction.
 
-### Общие шаги
+### Features
+- User registration
+- Booking system
+- SQLite database
+- Admin panel
+- Notifications
 
-```bash
-cd "путь/к/репо"
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1  # PowerShell
-python -m pip install -r <project-folder>\requirements.txt
-```
+### Stack
+- Python
+- aiogram
+- SQLite
 
-После установки зависимостей перейдите в нужную папку и выполните команду запуска из её `README.md`.
+---
 
-## GitHub-ready
+## 🌐 web-scraper
+Website parser with data extraction and export support.
 
-В корне добавлен `.gitignore`, который исключает:
-- локальные виртуальные окружения (`.venv`, `venv`)
-- временные Python-файлы (`__pycache__`, `*.pyc`)
-- файлы конфигурации и среды (`.env`, `.env.*`)
-- базы данных и логи (`*.db`, `*.log`, `*.sqlite`)
-- сгенерированные выходные файлы (`output/`, `*.xlsx`, `*.xls`)
+### Features
+- HTML parsing
+- Data extraction
+- Excel/CSV export
+- Automated collection
 
-## Рекомендации
+### Stack
+- Python
+- requests
+- BeautifulSoup
+- pandas
 
-- Для работы с каждым проектом используйте отдельное виртуальное окружение
-- Храните API-ключи и токены только в `.env`, не загружайте их в репозиторий
-- Если хотите разделить проекты на отдельные репозитории, просто создайте новый репозиторий для нужной папки и перенесите её содержимое
+---
 
-## Лицензия
+## 📊 price-list-cleaner
+Tool for automatic processing and cleaning of price lists.
 
-Проекты доступны под лицензией MIT. Содержание `LICENSE` описывает условия использования и распространения.
+### Features
+- Excel cleanup
+- CSV processing
+- Data formatting
+- Duplicate removal
+
+### Stack
+- Python
+- pandas
+
+---
+
+## 📄 pdf-generator
+Automatic PDF document generator.
+
+### Features
+- PDF reports
+- Invoice generation
+- JSON data support
+
+### Stack
+- Python
+- reportlab
+
+---
+
+## 🖼️ image-processing
+Basic image processing utilities.
+
+### Features
+- Image conversion
+- Resize tools
+- Optimization
+
+### Stack
+- Python
+- Pillow
+
+---
+
+# ⚡ Author
+
+Beknazar | Python Developer
+
+GitHub:
+https://github.com/beknazar-backend
