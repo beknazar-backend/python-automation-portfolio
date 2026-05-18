@@ -61,3 +61,7 @@ python process_price_list.py input.xlsx output.csv --markup 10
 - Если обработка не проходит, проверьте заголовки колонок в таблице
 - Используйте `--rename-map` для приведения названий к единому виду
 - Для Excel-файла укажите `--sheet`, если лист не называется `Sheet1`
+
+## Screenshots
+
+Input and output file examples can be added to the `screenshots` folder.
