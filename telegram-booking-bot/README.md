@@ -69,3 +69,6 @@ python main.py
 
 Для изменения доступных услуг отредактируйте словарь `SERVICES` в `config.py`.
 
+## Screenshots
+
+Screenshots and bot examples are available in the `screenshots` folder.
